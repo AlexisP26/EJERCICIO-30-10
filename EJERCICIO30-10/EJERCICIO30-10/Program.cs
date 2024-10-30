@@ -39,16 +39,15 @@ class Program
         Console.WriteLine("Ingrese la cantidad de creditos a tomar:");
         int Creditos = int.Parse(Console.ReadLine());
         Console.WriteLine("Ingrese el valor del credito:");
-        double valorCredito = int.Parse(Console.ReadLine());
+        double ValorCredito = int.Parse(Console.ReadLine());
 
-     
-
-            }
-                    
-                    }
-
-
-        }
+     Estudiante estudiante = new Estudiante(Estrato, Creditos, ValorCredito);
+    estudiante.CalcularMatricula();
+    estudiante.CalcularSubsidio();
+    estudiante.Mostrarinformacion();
+                Console.Write("¿Quieres calcular la matricula de otro estudiante? (s/n): ");
+                string respuesta = Console.ReadLine().ToLower();
+                continuar = respuesta == "s"; }}}
             
 
 
