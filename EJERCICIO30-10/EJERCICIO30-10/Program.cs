@@ -28,24 +28,24 @@ class Program
 
     public void Mostrarinformacion()
     { Console.WriteLine($"El precio de la matricula es: $ {PrecioMatricula} ");
-      Console.WriteLine($"el valor del subsidio es: $ {Subsidio} ");
+      Console.WriteLine($"el valor del subsidio es: $ {Subsidio} ");}
+     
+        
+     static void main()
+      { bool continuar = true;
+        while (continuar)
+      { Console.WriteLine("Ingrese el estrato del estudiante (1_3):");
+        int Estrato = int.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese la cantidad de creditos a tomar:");
+        int Creditos = int.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese el valor del credito:");
+        double valorCredito = int.Parse(Console.ReadLine());
 
-             
-
-
-
-
-
-
-                  
-
-
-
-
-
-
+     
 
             }
+                    
+                    }
 
 
         }
